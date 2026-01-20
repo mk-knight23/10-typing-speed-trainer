@@ -1,5 +1,16 @@
-# Typing WEBSITE BY MK
+# 10-typing-speed-trainer
+⌨️ Test and improve your typing speed.
+[![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/mk-knight23/10-typing-speed-trainer)
 
-# https://typing12.vercel.app
+## Features
+- 📊 WPM tracking
+- ⏱️ Timer countdown
+- 📝 Random text generation
+- 🎯 Accuracy tracking
 
-# https://mk-knight23.github.io/typing12
+## Quick Start
+```bash
+git clone https://github.com/mk-knight23/10-typing-speed-trainer.git && cd 10-typing-speed-trainer && npm i && npm run dev
+```
+## License
+MIT
