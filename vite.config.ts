@@ -1,14 +1,12 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
 
+// https://vitejs.dev/config/
 export default defineConfig({
-    plugins: [react()],
-    base: '/10-typing-speed-trainer/',
-    build: {
-        outDir: 'dist',
-    },
-    server: {
-        port: 3000,
-        open: true,
-    }
-});
+    plugins: [
+        react(),
+        tailwindcss(),
+    ],
+    base: process.env.VERCEL || process.env.NETLIFY ? './' : '/10-typing-speed-trainer/',
+})

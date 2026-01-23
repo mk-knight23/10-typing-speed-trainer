@@ -79,7 +79,7 @@ function App() {
                 <div className="flex justify-between items-end px-4">
                     <div className="flex items-center gap-3 font-black text-3xl text-yellow-400 tracking-[-0.08em]">
                         <Keyboard className="w-10 h-10 drop-shadow-[0_0_20px_rgba(250,204,21,0.3)]" />
-                        <span>TYPE<span className="text-zinc-600">_MK</span></span>
+                        <span>TYPO<span className="text-zinc-600">_MODERN</span></span>
                     </div>
 
                     <div className="flex gap-16">
